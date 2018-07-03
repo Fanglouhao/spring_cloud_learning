@@ -1,8 +1,15 @@
-# 关于spring cloud和actuator的学习
-### 组员；陈江涛 方娄昊 刘泽宇 贾兴国 李琥
+#关于spring cloud和actuator的学习
+###组员；陈江涛 方娄昊 刘泽宇 贾兴国 李琥
 
-<font color=#0099dd size=5 face="黑体">一.Spring Cloud简介</font></br>
-**Spring Cloud是一系列框架的有序集合。它可以很好地和Spring Boot结合，利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。**
+<font color=#0099dd size=5 face="黑体">一.actuator与Spring Cloud简介</font></br>
+**1.Spring Boot Actuator完全是一个用于暴露自身信息的模块，所以很明显，它的主要作用是用于监控与管理。**</br></br>
+**新建一个Spring Boot项目，依赖注入并修改application.yaml文件**</br>
+![](pic/24.png)</br>
+![](pic/25.png)</br>
+**在浏览器上访问http://localhost:8777//actuator/health**,浏览器显示如下：</br>
+![](pic/3.png)</br>
+
+**2.Spring Cloud是一系列框架的有序集合。它可以很好地和Spring Boot结合，利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。**
 ***
 
 
